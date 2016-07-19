@@ -32,7 +32,7 @@ module.exports = {
     "no-unreachable": "error",
     "no-whitespace-before-property": "error",
     "no-var": "error",
-    "object-shorthand": ["error", "always"]
+    "object-shorthand": ["error", "always"],
     "padded-blocks": ["error", "never"],
     "prefer-const": "error",
     "semi": ["error", "never"],
