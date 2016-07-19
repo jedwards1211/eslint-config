@@ -6,7 +6,6 @@ module.exports = {
   ],
   "rules": {
     "arrow-spacing": "error",
-    "comma-dangle": "error",
     "comma-spacing": "error",
     "computed-property-spacing": ["error", "never"],
     "eol-last": "error",
@@ -18,7 +17,6 @@ module.exports = {
       "align": "value"
     }],
     "linebreak-style": "error",
-    "object-curly-spacing": ["error", "never"],
     "no-console": "error",
     "no-unused-vars": ["error", {
       "args": "none", 
@@ -31,10 +29,8 @@ module.exports = {
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",
     "no-whitespace-before-property": "error",
-    "no-var": "error",
     "object-shorthand": ["error", "always"],
     "padded-blocks": ["error", "never"],
-    "prefer-const": "error",
     "semi": ["error", "never"],
     "space-before-blocks": ["error", "always"],
     "space-before-function-paren": ["error", {
@@ -54,6 +50,7 @@ module.exports = {
     "react/jsx-indent-props": "error",
     "react/jsx-key": "error",
     "react/jsx-space-before-closing": "error",
+    "react/no-did-mount-set-state": 0,
     "react/no-unknown-property": 0,
     "react/prop-types": "error",
     "react/wrap-multilines": "error",
