@@ -13,8 +13,7 @@ module.exports = {
     "jsx-quotes": "error",
     "keyword-spacing": "error",
     "key-spacing": ["error", {
-      "mode": "strict",
-      "align": "value"
+      "mode": "strict"
     }],
     "linebreak-style": "error",
     "no-console": "error",
