@@ -46,7 +46,7 @@ module.exports = {
     "space-unary-ops": ["error", {
       "words": true,
       "nonwords": false,
-    }]
+    }],
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-closing-bracket-location": "error",
