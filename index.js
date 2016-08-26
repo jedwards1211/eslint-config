@@ -2,7 +2,6 @@ module.exports = {
   "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
   ],
   "rules": {
     "arrow-spacing": "error",
@@ -42,21 +41,6 @@ module.exports = {
       "words": true,
       "nonwords": false
     }],
-    "react/jsx-boolean-value": ["error", "never"],
-    "react/jsx-equals-spacing": ["error", "never"],
-    "react/jsx-closing-bracket-location": "error",
-    "react/jsx-curly-spacing": ["error", "never"],
-    "react/jsx-indent-props": "error",
-    "react/jsx-key": "error",
-    "react/jsx-space-before-closing": "error",
-    "react/no-did-mount-set-state": 0,
-    "react/no-unknown-property": 0,
-    "react/prop-types": "error",
-    "react/wrap-multilines": "error",
     "rest-spread-spacing": ["error", "never"]
-  },
-  "plugins": [
-    "react"
-  ]
+  }
 }
-
