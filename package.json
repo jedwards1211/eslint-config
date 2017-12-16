@@ -1,6 +1,6 @@
 {
   "name": "@jedwards1211/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my own eslint config.  eschews most stylistic rules that aren't auto-fixable",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/jedwards1211/eslint-config-andy#readme",
   "peerDependencies": {
-    "babel-eslint": "^7.1.1"
+    "babel-eslint": "^7.1.1 || ^8.0.0"
   }
 }
