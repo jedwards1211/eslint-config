@@ -1,5 +1,4 @@
 module.exports = {
-  "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
   ],
@@ -44,3 +43,4 @@ module.exports = {
     "rest-spread-spacing": ["error", "never"]
   }
 }
+
