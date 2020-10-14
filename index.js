@@ -7,7 +7,6 @@ module.exports = {
     "comma-spacing": "error",
     "computed-property-spacing": ["error", "never"],
     "eol-last": "error",
-    "indent": ["error", 2],
     "jsx-quotes": "error",
     "keyword-spacing": "error",
     "key-spacing": ["error", {
@@ -16,7 +15,7 @@ module.exports = {
     "linebreak-style": "error",
     "no-console": "error",
     "no-unused-vars": ["error", {
-      "args": "none", 
+      "args": "none",
       "varsIgnorePattern": "React"
     }],
     "no-extra-semi": "error",
@@ -31,7 +30,7 @@ module.exports = {
     "semi": ["error", "never"],
     "space-before-blocks": ["error", "always"],
     "space-before-function-paren": ["error", {
-      "anonymous": "always", 
+      "anonymous": "always",
       "named": "never"
     }],
     "space-in-parens": ["error", "never"],
@@ -43,4 +42,3 @@ module.exports = {
     "rest-spread-spacing": ["error", "never"]
   }
 }
-

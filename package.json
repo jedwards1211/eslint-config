@@ -1,6 +1,6 @@
 {
   "name": "@jedwards1211/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "my own eslint config.  eschews most stylistic rules that aren't auto-fixable",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jedwards1211/eslint-config-andy/issues"
   },
-  "homepage": "https://github.com/jedwards1211/eslint-config-andy#readme"
+  "homepage": "https://github.com/jedwards1211/eslint-config-andy#readme",
+  "peerDependencies": {
+    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+  }
 }
